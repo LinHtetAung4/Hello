@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/cover"
+    android:background="@drawable/coverss"
 
     tools:context=".MainActivity">
 
@@ -15,8 +15,9 @@
         android:layout_width="131dp"
         android:layout_height="43dp"
         android:background="@drawable/buttonstyle"
-
         android:text="level 2"
+        android:textColor="#F10823"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -29,6 +30,8 @@
         android:layout_height="51dp"
         android:background="@drawable/buttonstyle"
         android:text="Level 1"
+        android:textColor="#F30808"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.831"
@@ -39,9 +42,11 @@
         android:id="@+id/idbutton0"
         android:layout_width="129dp"
         android:layout_height="49dp"
+        android:background="@drawable/buttonstyle"
         android:text="level 0"
 
-        android:background="@drawable/buttonstyle"
+        android:textColor="#EF0B2D"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.088"
